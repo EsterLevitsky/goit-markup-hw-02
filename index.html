@@ -4,137 +4,165 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="goit-markup-hw-01"/>
+    <meta name="description" content="goit-markup-hw-02"/>
     <title>Studio</title>
-  </head>
-  <a href="Webstudio">Web Studio</a>
-  <nav>
-    <ul>
+
+  
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:ital,wght@0,500;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/styles.css">
+  <link rel="stylesheet" href="./portfolio.html">
+  </head> 
+  <body>
+
+     <!-- Header section -->
+     <section class="header">
+  <header class="header">
+  <nav class="header-nav">
+    <a class="header-logo" href="./index.html"> <span class="accent">Web</span> Studio</a>
+    <ul class="header-list">
       <li>
-        <a href="">Studio</a>
+        <a href="header-item">Studio</a>
       </li>
       <li>
-        <a href="">Portfolio</a>
+        <a href="header-item">Portfolio</a>
       </li>
       <li>
-        <a href="">Contacts</a>
+        <a href="header-item">Contacts</a>
       </li>
     </ul>
   </nav>
-
-  <ul>
+</section>
+  <ul class="header-contacts">
     <li>
-      <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+      <a class="header-mail" href="mailto:info@devstudio.com">info@devstudio.com</a>
     </li>
     <li>
-      <a href="tel:+11(000)111-11-11">+11 (000) 111-11-11</a>
+      <a class="header-phone" href="tel:+11(000)111-11-11">+11 (000) 111-11-11</a>
     </li>
   </ul>
+</header>
 
-  <body>
-    <!-- Header section -->
-    <header></header>
-    <main>
+    <main class="main">
+
       <!-- Hero section -->
-      <section>
-       
-        <p>
-            <h1>
+      <section class="hero">
+            <h1 class="hero-title">
                 Effective Solutions for Your Business
             </h1>
-        </p> 
-        <!-- hidden h2 -->
-        <h2></h2> 
-        
-        <!-- Feature section -->
-        <section>
-        <p>
-          <button type="button">Order Service</button>   
-        </p>
+          <button class="btn" type="button">Order Service</button>   
+    </section>
 
-        <ul>
+        <!-- List section -->
+        <section class="list">
+        <ul class="list">
             <li>
-                <h3>Strategy</h3>
-               <p> Our goal is to identify the business
+                <h2 class="list-title">Strategy</h2>
+               <p class="list-text"> Our goal is to identify the business
 problem to walk away with the perfect and creative solution. </p>
             </li>
 
             <li>
-                <h3>Punctuality</h3>
-               <p>Bring the key message to the brand's audience for the best price within the shortest possible time.</p> 
+                <h2 class="list-title">Punctuality</h2>
+               <p class="list-text">Bring the key message to the brand's audience for the best price within the shortest possible time.</p> 
             </li>
 
             <li>
-                <h3>Diligence</h3>
-               <p>Research and confirm brands that present the strongest digital growth opportunities and minimize risk.</p>
+                <h2 class="list-title">Diligence</h2>
+               <p class="list-text">Research and confirm brands that present the strongest digital growth opportunities and minimize risk.</p>
             </li>
 
             <li>
-                <h3>Technologies</h3>
-                <p>Design practice focused on digital experiences. We bring forth a deep passion for problem-solving.</p>
+                <h2 class="list-title">Technologies</h2>
+                <p class="list-text">Design practice focused on digital experiences. We bring forth a deep passion for problem-solving.</p>
             </li>
         </ul>    
-</body>
-    
+   </section>
       <!-- About section -->
 
-      <section>
+      <section class="about">
 
-        <h4>
+        <h2 class="about-title">
         What are we doing
-      </h4>
+      </h2>
       <p>
-        <ul>
+        <ul class="about-list">
          <li>
-            <img src="./tutorial/tutorial/goit-markup-hw-01/images/header/1.jpg" alt="Computer">
+            <img class="about-pic"
+            src="./images/header/comp.png" 
+            alt="Computer" 
+            width="360"
+            height="300"/>  
          </li>
          <li>
-            <img src="./tutorial/tutorial/goit-markup-hw-01/images/header/2.jpg" alt="Phone">
+            <img class="about-pic"
+             src="./images/header/phone.jpg" 
+             alt="Phone" 
+             width="360"
+             height="300"/>
          </li>
          <li>
-            <img src="./tutorial/tutorial/goit-markup-hw-01/images/header/3.jpg" alt="Phone and Computer">
+            <img class="about-pic"
+            src="./images/header/comp phone.jpg" 
+            alt="Phone and Computer" 
+            width="360"
+            height="300"/>
          </li>
         </ul>
-      </p>
-</body>
       </section>
 
       <!-- Team section -->
-    <main>
-      <section>
-        <h5>Our Team</h5>
-       
-            <ul>
-                <li>
-                    <img src="./tutorial/tutorial/goit-markup-hw-01/images/team/1.jpg" alt="Mark Guerrero">
-                    <h6>Mark Guerrero</h6>
-                    <p>Product Designer</p>
-                </li>
-                <li>
-                    <img src="./tutorial/tutorial/goit-markup-hw-01/images/team/2.jpg" alt="Tom Ford">
-                    <h6>Tom Ford</h6>
-                    <p>Frontend Developer</p>
-                </li>
-                <li>
-                    <img src="./tutorial/tutorial/goit-markup-hw-01/images/team/3.jpg" alt="Camila Garcia">
-                    <h6>Camila Garcia</h6>
-                    <p>Marketing</p>
-                </li>
-                <li>
-                    <img src="./tutorial/tutorial/goit-markup-hw-01/images/team/4.jpg" alt="Daniel Wilson">
-                    <h6>Daniel Wilson</h6>
-                    <p>UI Designer</p>
-                </li>
-            </ul>
-       
-      </section>
 
+      <section class="team">
+        <h2 class="team-title">Our Team</h2>
+            <ul class="team-list">
+                <li class="team-item">
+                    <img class="team-pic"
+                    src="./images/team/mark.jpg"
+                     alt="Mark Guerrero"
+                     width="264"
+                     height="260"/>
+                    <h3 class="team-name">Mark Guerrero</h3>
+                    <p class="team-prof">Product Designer</p>
+                </li>
+                <li class="team-item">
+                    <img class="team-pic"
+                    src="./images/team/tom.jpg" 
+                    alt="Tom Ford"
+                    width="264"
+                     height="260"/>
+                    <h3 class="team-name">Tom Ford</h3>
+                    <p class="team-prof">Frontend Developer</p>
+                </li>
+                <li class="team-item">
+                    <img class="team-pic"
+                    src="./images/team/camila.jpg" 
+                    alt="Camila Garcia"
+                    width="264"
+                     height="260"/>
+                    <h3 class="team-name">Camila Garcia</h3>
+                    <p class="team-prof">Marketing</p>
+                </li>
+                <li class="team-item">
+                    <img class="team-pic"
+                    src="./images/team/daniel.jpg" 
+                    alt="Daniel Wilson"
+                    width="264"
+                     height="260"/>
+                    <h3 class="team-name">Daniel Wilson</h3>
+                    <p class="team-prof">UI Designer</p>
+                </li>
+            </ul> 
+      </section>
     </main>
 
     <!-- Footer section -->
- <footer>
-     <a href="Web studio">Web Studio</a>
-     <p>Increase the flow of customers and sales for your business with digital marketing & growth solutions.</p>
+    <section class="footer">
+ <footer class="footer-studio">
+  <a class="footer-logo" href="./index.html"> <span class="accent">Web</span> Studio</a>
+     <p class="footer-txt" >Increase the flow of customers and sales for your business with digital marketing & growth solutions.</p>
  </footer>
+</section>
   </body>
 </html>
