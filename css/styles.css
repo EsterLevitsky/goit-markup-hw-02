@@ -32,11 +32,11 @@ font-family: Raleway, sans-serif;
         line-height: 1.17;
         letter-spacing: 0.03em;
         text-transform: uppercase;
-        color: #2E2F42;
+        color: #4D5AE5;
 }
 
 .logo-part {   
-    color: #4D5AE5;
+    color: #2E2F42;
 }
 
 .nav-link {
@@ -153,15 +153,16 @@ color: #434455;
 }
 
 /* Footer */
-.footer {}
-
 .footer-logo {
 font-weight: 700;
 font-size: 18px;
 line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-color: #F4F4FD;
+color: #4D5AE5;
+}
+.logo-part-footer {
+color:#F4F4FD;
 }
 .footer-text {
     font-weight: 400;
